@@ -1,0 +1,106 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav{
+    display: grid;
+    grid-template-columns: 30% 40% 10%;
+    box-shadow:  3px 3px 3px 3px  gray;
+    align-items: center;
+    
+    width: 100%;
+
+  }
+  .sidenav {
+    height: 100%;
+    width: 0%;
+    padding: 0%;
+    margin: 0%;
+    position: fixed;
+    background-color:black;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  span{
+    margin-left: 20px;
+  }
+   a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s; 
+  }
+  a:hover {
+ background-color: gray;
+  }
+  
+  #open{
+    font-size:30px;
+    cursor:pointer;
+  }
+ 
+  
+  .bt{ 
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .bt:hover{
+    background-color: rgba(192, 192, 192, 0.4);
+    
+  }
+  .infomation{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   border: 1px solid red;
+   color: white;
+   background-color: red;
+   margin-left: 350px;
+   margin-right: 200px;
+   align-items: center;
+   padding: 10px;
+  }
+  #div{
+    display: flex;
+   justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 200px;
+   border: 1px solid black;
+  
+  }
+  .img{
+    height: 300px;
+    width: 300px;
+    margin: 0%;
+  }
+  #info{
+    line-height: 20px;
+   
+  }
+  .changes {
+    background-color: black;
+    color: white;
+  }
+  #button{
+    padding: 10px;
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+
